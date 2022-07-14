@@ -1,9 +1,12 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {},
+    START_MSG = """<b>မင်္ဂလာပါ  {},
+    
+ကျွန်တော်က Unlimited Filter Bot ပါ
 
-I'm an advanced filter bot with many capabilities!
-There is no practical limits for my filtering capacity :)
+ကျွန်တော်ကို Group ‌နဲ့ Movie Channel များတွင် Admin ထည့်ပြီး မည်သူမဆိုလွတ်လပ်စွာအသုံးပြုနိုင်ပါတယ်။..
+
+@KOPAING15 <i>-Contact Me</i></b>""" :)
 
 See <i>/help</i> for commands and more details.</b>
 """
@@ -48,16 +51,19 @@ See <i>/help</i> for commands and more details.</b>
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
 
-<b>© @TroJanzHEX</b>
+
+<b>© @KOPAING15</b>"""
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
-
-⭕️<b>Creater :</b> @TroJanzHEX    
+     ABOUT_MSG = """⭕️<b>My Name : KO PAing </b>
+    
+⭕️<b>Creater :</b> @KOPAING15
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
 ⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+
+⭕️<b>Tutorial Video :</b> <a href='https://t.me/mksmainchannel'>Video Link</a> 
 
 """
