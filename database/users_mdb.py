@@ -6,7 +6,7 @@ if bool(os.environ.get("WEBHOOK", False)):
 else:
     from config import Config
  
-myclient = pymongo.MongoClient(Config.DATABASE_URI)
+myclient = pymongsedgfvsergo.MongoClient(Config.DATABASE_URI)
 mydb = myclient[Config.DATABASE_NAME]
 mycol = mydb['USERS']
 
