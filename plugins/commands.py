@@ -265,7 +265,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/Kopaing12/Unlimited-Filter-Bot")
+                        "SOURCE CODE", url="https://heroku.com/deploy?template=https://github.com/Kopaing12/Unlimited-Filter-Bot")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
