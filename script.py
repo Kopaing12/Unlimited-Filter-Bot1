@@ -6,9 +6,7 @@ class Script(object):
 
 ကျွန်တော်ကို Group ‌နဲ့ Movie Channel များတွင် Admin ထည့်ပြီး မည်သူမဆိုလွတ်လပ်စွာအသုံးပြုနိုင်ပါတယ်။..
 
-@KOPAING15 <i>-Contact Me</i></b>""" :)
-
-See <i>/help</i> for commands and more details.</b>
+@KOPAING15 <i>-Contact Me</i></b>
 """
 
 
@@ -51,8 +49,7 @@ See <i>/help</i> for commands and more details.</b>
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
 
-
-<b>© @KOPAING15</b>"""
+<b>© @KOPAING15</b>
 """
 
 
