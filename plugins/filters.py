@@ -335,7 +335,7 @@ async def give_filter(client,message):
                     if fileid == "None":
                         if btn == "[]":
                             await message.reply_text(
-                    f"<b> Hello {message.from_user.mention}</b>\n\n<b>သင်ရှာတာ 👉🏻 {reply_text}👈🏻  က ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......</b>\n\n<b>Request by :{message.from_user.mention}</b>\n\n<b>Join Main Channel \nK-Series👉🏻 @MKSVIPLINK \n  Movie  👉🏻@KPMOVIELIST</b>{reply_text}, disable_web_page_preview=True)
+                    f"Hello {message.from_user.mention}\n\n<b>သင်ရှာတာ 👉🏻 {reply_text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n<b>Join Main Channel \nK-Series👉🏻 @MKSVIPLINK \n  Movie  👉🏻@KPMOVIELIST\n{reply_text}, disable_web_page_preview=True)
                         else:
                             button = eval(btn)
                             await message.reply_text(
