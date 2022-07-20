@@ -352,7 +352,7 @@ async def give_filter(client,message):
                         else:
                             button = eval(btn) 
                             await message.reply_cached_media(
-                                fileid,
+                        f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{fileid}",
                                 caption=reply_text or "",
                                 reply_markup=InlineKeyboardMarkup(button)
                             )
