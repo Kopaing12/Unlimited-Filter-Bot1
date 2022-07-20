@@ -339,7 +339,7 @@ async def give_filter(client,message):
                         else:
                             button = eval(btn)
                             await message.reply_text(
-                                reply_text,
+                                f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{reply_text}",
                                 disable_web_page_preview=True,
                                 reply_markup=InlineKeyboardMarkup(button)
                             )
@@ -347,13 +347,13 @@ async def give_filter(client,message):
                         if btn == "[]":
                             await message.reply_cached_media(
                                 fileid,
-                                caption=reply_text or ""
+                                caption=f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{reply_text}" or ""
                             )
                         else:
                             button = eval(btn) 
                             await message.reply_cached_media(
-                        f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{fileid}",
-                                caption=reply_text or "",
+                                fileid,
+                                caption=f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{reply_text}" or "",
                                 reply_markup=InlineKeyboardMarkup(button)
                             )
                 except Exception as e:
