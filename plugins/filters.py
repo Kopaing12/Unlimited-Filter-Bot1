@@ -334,13 +334,12 @@ async def give_filter(client,message):
                 try:
                     if fileid == "None":
                         if btn == "[]":
-                        fek await message.reply_photo(photo="https://telegra.ph/file/24785052b59f814dfce7e.png")
                             await message.reply_text(
-                    f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{reply_text}", disable_web_page_preview=True)
+                    f"🤗 ဟိုင်း {message.from_user.mention} ရေ.... 🌝🌝\n\n{message.from_user.mention} ရှာတာ 👉🏻 {message.text}👈🏻  ကို မင်မင်ဆီမှရှိတာ ပြပေးထားတယ်နော်။♥️♥️👌 ......\n\n<b>💠Request by :{message.from_user.mention}\n\n{reply_text}", disable_web_page_preview=True)
                         else:
                             button = eval(btn)
                             await message.reply_text(
-                                f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{reply_text}",
+                                f"🤗 ဟိုင်း {message.from_user.mention} ရေ.... 🌝🌝\n\n{message.from_user.mention} ရှာတာ 👉🏻 {message.text}👈🏻  ကို မင်မင်ဆီမှရှိတာ ပြပေးထားတယ်နော်။♥️♥️👌 ......\n\n<b>💠Request by :{message.from_user.mention}\n\n{reply_text}",
                                 disable_web_page_preview=True,
                                 reply_markup=InlineKeyboardMarkup(button)
                             )
@@ -348,13 +347,13 @@ async def give_filter(client,message):
                         if btn == "[]":
                             await message.reply_cached_media(
                                 fileid,
-                                caption=f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{reply_text}" or ""
+                                caption=f"🤗 ဟိုင်း {message.from_user.mention} ရေ.... 🌝🌝\n\n{message.from_user.mention} ရှာတာ 👉🏻 {message.text}👈🏻  ကို မင်မင်ဆီမှရှိတာ ပြပေးထားတယ်နော်။♥️♥️👌 ......\n\n<b>💠Request by :{message.from_user.mention}\n\n{reply_text}" or ""
                             )
                         else:
                             button = eval(btn) 
                             await message.reply_cached_media(
                                 fileid,
-                                caption=f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{reply_text}" or "",
+                                caption=f"🤗 ဟိုင်း  {message.from_user.mention} ရေ.... 🌝🌝\n\n{message.from_user.mention} ရှာတာ 👉🏻 {message.text}👈🏻  ကို မင်မင်ဆီမှရှိတာ ပြပေးထားတယ်နော်။♥️♥️👌 ......\n\n<b>💠Request by :{message.from_user.mention}\n\n{reply_text}" or "",
                                 reply_markup=InlineKeyboardMarkup(button)
                             )
                 except Exception as e:
