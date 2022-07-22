@@ -334,8 +334,9 @@ async def give_filter(client,message):
                 try:
                     if fileid == "None":
                         if btn == "[]":
+                        fek await message.reply_photo(photo="https://telegra.ph/file/24785052b59f814dfce7e.png")
                             await message.reply_text(
-                    f" {photo="https://telegra.ph/file/24785052b59f814dfce7e.png"},Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{reply_text}", disable_web_page_preview=True)
+                    f"Hello {message.from_user.mention}\n\nသင်ရှာတာ 👉🏻 {message.text}👈🏻  ကို ကျနော်ရှာတွေ့တာပြပေးထားပါတယ်ခင်ဗျာ ☺️ ......\n\n<b>Request by :{message.from_user.mention}\n\n{reply_text}", disable_web_page_preview=True)
                         else:
                             button = eval(btn)
                             await message.reply_text(
